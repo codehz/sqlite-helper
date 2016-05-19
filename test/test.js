@@ -25,7 +25,8 @@ describe('sqlite-helper', () => {
                         unique: true
                     })
                     ._name('TEXT', {
-                        default: 'test'
+                        default: 'test',
+                        primary: true,
                     })
                     ._info('TEXT')
                     .build();
