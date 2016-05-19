@@ -1,6 +1,6 @@
 {
   "name": "sqlite-helper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "sqlite3 helper",
   "main": "index.js",
   "scripts": {
