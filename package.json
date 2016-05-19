@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/codehz/sqlite-helper/issues"
   },
-  "homepage": "https://github.com/codehz/sqlite-helper#readme"
+  "homepage": "https://github.com/codehz/sqlite-helper#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
