@@ -62,7 +62,7 @@ describe('sqlite-helper', () => {
             });
             it('should work', done => {
                 co(function*() {
-                    console.log(yield selectCommand.exec());
+                    yield selectCommand.exec();
                 }).then(done).catch(done);
             });
         });
